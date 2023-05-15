@@ -1,0 +1,6 @@
+<svg viewBox="0 0 100 1" xmlns="http://www.w3.org/2000/svg">
+  <line x1="10" y1="0" x2="90" y2="0" stroke="white" stroke-width="0.25"/>
+
+  <!-- If you do not specify the stroke
+       color the line will not be visible -->
+</svg>
