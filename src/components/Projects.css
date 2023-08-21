@@ -1,0 +1,25 @@
+.projects-container {
+    background-color: #29455b;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.projects-main {
+    padding-top: 100px;
+  }
+  
+.projects-main h1 {
+color: #fff;
+text-align: center;
+font-size: 64px;
+}
+
+.projects-main p {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+}

@@ -1,0 +1,22 @@
+.resume-container {
+    background-color: #29455b;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #f2f2f2;
+  }
+
+.resume-main {
+  padding-top: 100px;
+}
+
+.resume-main h1 {
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 64px;
+}
+.resume-contact {
+  margin-bottom: 20px;
+}

@@ -1,21 +1,22 @@
 
 .home-container {
-  background-color: #001a45;
+  background-color: #29455b;
   display: flex;
   height: 100%;
+  width: 100%;
   flex-direction: column;
   min-height: 100vh;
 }
 
 .home-name {
   margin-top: 10%;
-  color: #fff;
+  color: #f2f2f2;
   text-align: center;
   font-size: 64px;
 }
 
 .home-desc {
-  color: #fff;
+  color: #f2f2f2;
   text-align: center;
   font-size: 36px;
   padding: 0 20%;
@@ -37,6 +38,10 @@
   border: 1px solid #f2f2f2;
   color: #f2f2f2;
   text-decoration: none;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
 }
 
 .home-navbar .links:hover {
@@ -44,3 +49,17 @@
   background-color: #f2f2f2;
   border: 1px solid #f2f2f2;
 }
+
+
+/* 
+Color Scheme
+#29455b
+#295174
+#4380b0
+#3a668b
+#172a41
+#060912
+
+
+gray also works with dark blue
+*/

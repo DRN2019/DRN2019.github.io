@@ -1,31 +1,52 @@
-const AboutSection = (props) => {
-    const imgLeft = props.imgLeft;
-    let imgPlace = 1;
-    let textPlace = 2;
+import React from "react";
 
-    if (!imgLeft) {
-        imgPlace = 2;
-        textPlace = 1;
+class AboutSection extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            imgLeft: props.imgLeft,
+            img: props.img,
+            title: props.title,
+            desc: props.desc
+        };
     }
 
-    const img = props.img;
-    const title = props.title;
-    const desc = props.desc;
+    render() {
+        const imgLeft = this.state.imgLeft; 
+        const img = this.state.img;
+        const title = this.state.title;
+        const desc = this.state.desc;
 
-
-    return ( 
-    <>
-    <div className="about-section-container">
-        <div className="about-section-img">
-            <img src={img} alt="about-img" />
-        </div>
-        <div className="about-section-text">
-            <h2>{title}</h2>
-            <p>{desc}</p>
-        </div>
-    </div>
-    </>
-    );
+        if (imgLeft) {
+        return (
+            <>
+            <div className="about-section-container">
+                <div className="about-section-img">
+                    <img src={img} alt="about-img" />
+                </div>
+                <div className="about-section-text">
+                    <h2>{title}</h2>
+                    <p>{desc}</p>
+                </div>
+            </div>
+            </>
+        )
+        } else {
+        return (
+            <>
+            <div className="about-section-container">
+                <div className="about-section-text">
+                        <h2>{title}</h2>
+                        <p>{desc}</p>
+                </div>
+                <div className="about-section-img">
+                    <img src={img} alt="about-img" />
+                </div>
+            </div>
+            </>
+        )
+        }
+    }
 }
- 
-export default AboutSection;
+
+export default AboutSection; 
