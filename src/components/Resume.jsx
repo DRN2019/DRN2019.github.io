@@ -27,6 +27,16 @@ const Resume = () => {
                 Consistently studying emerging technologies and improving technical skills to remain on the cutting edge of software development.
                 </p>
             </div>
+            <div className="resume-experience">
+
+            </div>
+            <div className="resume-projects">
+                
+            </div>
+            <div className="resume-leadership">
+
+            </div>
+
 
         </div>
 
